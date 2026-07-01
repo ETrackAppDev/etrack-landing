@@ -32,6 +32,40 @@
             The future of performance tracking is almost here.</p>
         <button class="bg-[#3b82f6] text-white px-10 py-4 font-bold rounded text-sm uppercase tracking-widest hover:bg-white hover:text-black transition">Request Early Access</button>
     </section>
+    <!-- Form di Iscrizione Dettagliato -->
+        <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="max-w-sm mx-auto flex flex-col gap-4 text-left">
+            <div>
+                <label class="text-xs text-gray-400 uppercase tracking-widest block mb-1">Full Name</label>
+                <input type="text" name="name" required class="bg-[#111] border border-[#222] p-3 rounded text-white w-full focus:border-[#3b82f6] outline-none transition">
+            </div>
+            <div>
+                <label class="text-xs text-gray-400 uppercase tracking-widest block mb-1">Professional E-mail</label>
+                <input type="email" name="email" required class="bg-[#111] border border-[#222] p-3 rounded text-white w-full focus:border-[#3b82f6] outline-none transition">
+            </div>
+            <div>
+                <label class="text-xs text-gray-400 uppercase tracking-widest block mb-1">Current Role</label>
+                <select name="role" required class="bg-[#111] border border-[#222] p-3 rounded text-white w-full focus:border-[#3b82f6] outline-none transition cursor-pointer">
+                    <option value="" disabled selected>Select your role</option>
+                    <option value="therapist">Performance Sport Therapist</option>
+                    <option value="athletic">Athletic Trainer</option>
+                    <option value="strength">Strength & Conditioning Coach</option>
+                    <option value="medical">Medical Professional</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label class="text-xs text-gray-400 uppercase tracking-widest block mb-1">Clinic/Team Affiliation (Optional)</label>
+                <input type="text" name="affiliation" class="bg-[#111] border border-[#222] p-3 rounded text-white w-full focus:border-[#3b82f6] outline-none transition">
+            </div>
+            <div>
+                <label class="text-xs text-gray-400 uppercase tracking-widest block mb-1">Why are you interested in E-Track?</label>
+                <textarea name="message" rows="3" class="bg-[#111] border border-[#222] p-3 rounded text-white w-full focus:border-[#3b82f6] outline-none transition"></textarea>
+            </div>
+            <button type="submit" class="bg-[#3b82f6] text-white py-4 font-bold rounded text-sm uppercase tracking-widest hover:bg-white hover:text-black transition w-full mt-2">
+                Request Early Access
+            </button>
+        </form>
+    </section>
 
     <!-- Features Columns -->
     <section id="features" class="py-16 max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
